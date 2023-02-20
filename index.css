@@ -1,0 +1,26 @@
+@font-face{
+    src: url("DIGITALDREAM.ttf");
+    font-family:digital;
+}
+body {
+    margin: 0;
+    text-align: center;
+    background-image:url("court.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.score {
+    font-family: digital;
+    color: red;
+    font-size: 40px;
+}
+.card{
+    background: black;
+    color: white;
+}
